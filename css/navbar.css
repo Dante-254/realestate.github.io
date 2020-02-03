@@ -1,0 +1,16 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+
+}
+
+li{
+    text-decoration: none;
+    float: right;
+    font-family: Chilanka;
+    display: block;
+    padding: 20px;
+
+}

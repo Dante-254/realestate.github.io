@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>about us</title>
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script src="https://kit.fontawesome.com/64b870a310.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/poppoer.min.js"></script>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="header sticky content " >
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-9"><a href="RealEstate.html"> <img src="image/logo.jpg" alt=""></a></div>
+        <div class="col-1">
+            <a href="RealEstate.html">HOME</a>
+        </div>
+        <div class="col-2">
+            <a href="contactus.html">Contact Us</a>
+        </div>
+
+    </div>
+</div>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br>
+<h3>Direction</h3>
+<div id="map" style="width:100%; height:400px">
+
+    <
+
+    <script>
+        var mapCanvas = document.getElementById("map");
+        var mapOptions = {
+            center: new google.maps.LatLng(-1.268264, 36.811121), zoom: 10
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+    </script>
+</div>
+<hr>
+<div class="projects">
+    <h3>New Projects</h3>
+    <div class="image">
+        <h5>Urefu Heights</h5>
+        <p>Urefu Heights is a comprehensive and luxurious mixed-use development located in Ngong. Urefu Heights provides
+            an opportunity to buy into a unique development in a serene environment.
+            These 18 luxury homes, with each villa sitting on ½ acre, provide spacious
+            living areas surrounded by expansive luscious compounds.</p>
+        <img src="about/resources/r.jpg" alt="image not found">
+        <h5>Smart Building</h5>
+        <p>Smart Building  is a comprehensive residential
+            development with modern rooms and impeccable finishing. The project is strategically positioned in Westland
+            neighborhood. The adjacent suburbs
+            Kabete,and Kikuyu also make the location quite secure and attractive for investors.</p>
+        <img src="about/resources/real%20estate.jpg" alt="image not found">
+        <h5>Saita Village</h5>
+        <p>Nestled in the scenic ravine of Kajiado, Saita Village derives its name from a masaai word meaning together.
+            It is an exclusive, world-class gated community offering a live,
+            work and play environment and a great investment.</p>
+        <img src="about/resources/images.jpg" alt="image not found">
+    </div>
+</div>
+<hr>
+<div class="footer">
+    <div class="footer_content">
+
+        <div class="footer_section about">
+            <h1 class="logo_text"><span> Counter Real Estate</span>Property</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <div class="contact">
+                <span><i class="fas fa-phone"></i> &nbsp;123-456-789 </span>
+                <span><i class="fas fa-envelope"></i> &nbsp;info@counter.com </span>
+            </div>
+            <br>
+            <div class="socials">
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+        <div class="footer_section contact_form">
+            <h2>Contact  Us</h2>
+            <br>
+            <form action="index.html" method="post">
+                <input type="email" name="email" class="text-input contact-input"placeholder="Your email address...">
+                <textarea name="message" id="text-input contact-input" cols="30" rows="10" placeholder="Your message..."></textarea>
+                <button type="submit" class="btn btn_big">
+                    <i class="fas fa-envelope"></i>
+                        send
+                </button>
+            </form>
+
+        </div>
+    </div>
+        <div class="footer_bottom">
+            &copy;counterrealestate.com|designed by Cheruu
+        </div>
+    <br>
+        <div>
+            <h1 class="logo_text"><span>Counter Real Estate</span></h1>
+            <ul>
+                <li>Urefu Heights</li>
+                <li>Smart Building</li>
+                <li>Saita Village</li>
+            </ul>
+        </div>
+    <div>
+
+    </div>
+</div>
+</body>
+</html>
+
